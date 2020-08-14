@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Js aula 1</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+
+    <script language="javascript" src="meu_js.js"></script>
+  </head>
+  <body>
+    <div id="caixa">
+      <div class="container">
+
+        <h1>Calculadora de IMC: Indíce corporal</h1>
+        <p>Coloque seu peso</p><input type="number" id="kg">
+        <p>Coloque sua Altura</p><input type="text" id="m">
+        <button id="calc" onclick="calc()">Calcular</button>
+          
+        <p>IMC:<span id="imc"></span></p>
+        <p>Classificação<span id="leitura"></span></p>
+
+      <table border id="tableP">
+           <tr  id="inicio">
+           <th>Ranking</th>
+           <th>Indice de massa corporal</th>
+        
+
+          </tr>
+          <tr id="15oM">
+              <td>15 a menos</td>
+            <td>Anemia muito severa</td>
+
+          </tr>
+           <tr id="AnemiaS">
+              <td>15 - 15.9</td>
+            <td>Anemia severa</td>
+
+          </tr>
+           <tr id="Anemia">
+              <td>16 - 18.5</td>
+            <td>Anemia</td>
+
+          </tr>
+           <tr id="Saudavel">
+              <td>18,9 - 24,9</td>
+            <td>Saudavel</td>
+
+          </tr>
+           <tr id="acima_peso">
+              <td>25 - 29.9</td>
+            <td>Acima do peso</td>
+
+          </tr>
+           <tr id="obesidade">
+              <td>30 - 34.9</td>
+            <td>Obesidade severa</td>
+
+          </tr>
+           <tr id="mordida">
+              <td>40 para mais</td>
+            <td>Obesidade morbida</td>
+
+          </tr>
+
+        </table>
+        </div>
+    </div>
+  </body>
+</html>

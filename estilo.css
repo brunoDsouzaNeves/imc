@@ -1,0 +1,58 @@
+#caixa {
+
+	border:0px;
+	width: 500px;
+	height: 600px;
+	background: #D0F5A9;
+}
+#caixa:hover {
+
+	border: 1px solid rgba(0,0,0,0.4)
+
+}
+#tableP {
+width: 80%;
+height: 60px;
+text-align: center;
+
+}
+
+.container {
+
+	padding: 15px;
+
+}
+
+table {
+
+	border-spacing: 0;
+	border-radius: 5deg;
+	vertical-align: top;
+
+}
+
+#inicio {
+
+	background: #52be80;
+
+
+}
+
+input {
+
+	border-radius: 20px;
+
+}
+#botao{
+	width: 70px;
+	height: 20px;
+	background: #666;
+	text-align: center;
+	border-radius: 20px;
+	padding: 5px;
+}
+body {
+
+	font-family: arial;
+
+}
